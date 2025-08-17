@@ -124,3 +124,36 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+.banner {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background for the banner */
+    text-align: center;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.contact-info h3 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #34495e;
+}
+.contact-item svg {
+    margin-right: 10px;
+    color: #007bff;
+}
