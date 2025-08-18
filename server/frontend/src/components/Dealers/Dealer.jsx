@@ -22,7 +22,7 @@ const Dealer = () => {
   let id =params.id;
   let dealer_url = root_url+`djangoapp/dealer/${id}`;
   let reviews_url = root_url+`djangoapp/reviews/dealer/${id}`;
-  let post_review = root_url+`postreview/${id}`;
+  let post_review = root_url +`djangoapp/add_review`;
   
   const get_dealer = async ()=>{
     const res = await fetch(dealer_url, {
